@@ -1,0 +1,30 @@
+{"intents":[
+	{	"tag":"greetings",
+		"patterns":["hi","hello","hey","good day","Greetings","what's up?","how is it going?"],
+		"responses":["Hello!","Hey!","What can I do for you?"]
+	},
+	{	"tag": "age",
+		"patterns": ["how old are you?", "when is your birthday?", "when was you born?"],
+		"responses": ["I am 24 years old", "I was born in 1996", "My birthday is July 3rd and I was born in 1996", "03/07/1996"]
+	       },
+	{	"tag": "date",
+		"patterns": ["what are you doing this weekend?","do you want to hang out some time?", "what are your plans for this week"],
+		"responses": ["I am available all week", "I don't have any plans", "I am not busy"]
+	},
+	{	"tag": "name",
+		"patterns": ["what's your name?", "what are you called?", "who are you?"],
+		"responses": ["My name is Kippi", "I'm Kippi", "Kippi"]
+	},
+	{	"tag": "goodbye",
+		"patterns": [ "bye", "g2g", "see ya", "adios", "cya"],
+		"responses": ["It was nice speaking to you", "See you later", "Speak soon!"]
+	},
+	{	"tag": "hours",
+		"patterns": ["What hours are you open?", "What are your hours?", "When are you open?" ],
+		"responses": ["7/24"]
+	},  
+	{	"tag": "stocks",
+		"patterns": ["what stocks do I own?", "how are my shares?", "what companies am I investing in?", "what am I doing in the markets?"],
+		"responses": ["You own the following shares: ABBV, AAPL, FB, NVDA and an ETF of the S&P 500 Index!"]
+	}
+]}
